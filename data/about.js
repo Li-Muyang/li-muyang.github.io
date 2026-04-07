@@ -25,9 +25,9 @@ export const ABOUT = {
     },
   ],
   researchInterests: [
-    "Geometries of Machine Learning, specifically on Multi-modal Alignment and Understanding",
-    "Model Selection and Evaluation, specifically on Transferability Estimation and Efficient Evaluation",
-    "LLM & VLM post-training, such as Instruction Tuning, Preference Alignment",
-    "Weakly-supervised Learning, specifically on Semi-supervised Learning and Learning with Noisy Labels",
+    "**Geometries of Machine Learning**, specifically on Multi-modal Alignment and Understanding.",
+    "**Model Selection and Evaluation**, specifically on Transferability Estimation and Efficient Evaluation.",
+    "**LLM & VLM post-training**, specifically on Instruction Tuning and Preference Alignment.",
+    "**Weakly-supervised Learning**, specifically on Semi-supervised Learning and Learning with Noisy Labels.",
   ],
 };

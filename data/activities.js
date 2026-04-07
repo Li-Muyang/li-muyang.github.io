@@ -1,4 +1,6 @@
 export const NEWS = [
+  { date: "Fed, 2026", text: "One paper accepted by ACL 2026 main track (recommended for oral presentation)." },
+  { date: "Fed, 2026", text: "Two papers are accepted by CVPR 2026." },
   { date: "Oct, 2025", text: "Honoured to be named as one of the Top Reviewers for NeurIPS 2025!" },
   { date: "Nov, 2024", text: "Honoured to receive the Bicentenial Scholariship from The Royal Society of New South Wales (top-3 PhD students across all disciplines in the state of NSW & ACT)." },
   { date: "May, 2024", text: "Honoured to be named as one of the Outstanding Reviewers for ICLR 2024!" },

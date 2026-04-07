@@ -28,6 +28,7 @@ function renderInlineMarkdown(text) {
   }
 
   output += escapeHtml(raw.slice(lastIndex));
+  output = output.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   return output;
 }
 
@@ -82,7 +83,7 @@ function renderAbout() {
     .join("");
 
   const interestsHtml = (ABOUT.researchInterests || [])
-    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .map((item) => `<li>${renderInlineMarkdown(item)}</li>`)
     .join("");
 
   container.innerHTML = `
@@ -137,7 +138,7 @@ function renderNews() {
 
   const items = NEWS.map(
     (item) =>
-      `<li><span class="news-date">${escapeHtml(item.date)}</span>${escapeHtml(item.text)}</li>`
+      `<li><span class="news-date">${escapeHtml(item.date)}</span>${renderInlineMarkdown(item.text)}</li>`
   ).join("");
 
   container.innerHTML = `<ul class="news-list">${items}</ul>`;
