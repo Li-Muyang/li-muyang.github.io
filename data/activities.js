@@ -1,5 +1,5 @@
 export const NEWS = [
-  { date: "Fed, 2026", text: "One paper accepted by ACL 2026 main track (recommended for oral presentation)." },
+  { date: "Apr, 2026", text: "One paper accepted by ACL 2026 main track (recommended for oral presentation)." },
   { date: "Fed, 2026", text: "Two papers are accepted by CVPR 2026." },
   { date: "Oct, 2025", text: "Honoured to be named as one of the Top Reviewers for NeurIPS 2025!" },
   { date: "Nov, 2024", text: "Honoured to receive the Bicentenial Scholariship from The Royal Society of New South Wales (top-3 PhD students across all disciplines in the state of NSW & ACT)." },
@@ -15,11 +15,11 @@ export const NEWS = [
 export const SERVICE = [
   {
     role: "Session Chair",
-    details: "PAKDD 2025",
+    details: "PAKDD 2025.",
   },
   {
     role: "Conference Reviewer",
-    details: "ICLR 2023-2026, ICML 2023-2026, NeurIPS 2023-2026, UAI 2024-2026, AISTATS 2025-2026, CVPR 2026, ECCV 2026, ARR 2025-2026",
+    details: "ICLR 2023-2026, ICML 2023-2026, NeurIPS 2023-2026, UAI 2024-2026, AISTATS 2025-2026, CVPR 2026, ECCV 2026, ARR 2025-2026, etc.",
   },
   {
     role: "Journal Reviewer",
