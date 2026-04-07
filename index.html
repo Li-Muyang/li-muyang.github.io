@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muyang Li</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="container site-header">
+    <div class="header-main">
+      <div>
+        <h1>Muyang Li</h1>
+        <p class="subtitle">PhD Student, School of Computer Science, University of Sydney</p>
+        <p class="header-links">
+          <a href="https://scholar.google.com/citations?user=rQM4920AAAAJ&hl=en&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
+          <span class="dot">&middot;</span>
+          <a href="mailto:muli0371@uni.sydney.edu.au">Email</a>
+        </p>
+      </div>
+      <img class="profile-photo" src="./images/Muyang.png" alt="Portrait of Muyang Li" />
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#news">News</a>
+      <a href="#activities">Activities</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#9790;</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <div id="about-content"></div>
+    </section>
+
+    <section id="publications" class="panel">
+      <h2>Publications</h2>
+      <div id="publication-sections" class="publication-sections"></div>
+    </section>
+
+    <section id="news" class="panel">
+      <h2>News</h2>
+      <div id="news-content"></div>
+    </section>
+
+    <section id="activities" class="panel">
+      <h2>Services &amp; Activities</h2>
+      <div id="activities-content"></div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p>
+        Email: muli0371 [at] uni.sydney.edu.au
+      </p>
+      <p>
+        <a href="https://scholar.google.com/citations?user=rQM4920AAAAJ&hl=en&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <p>Last updated from <code>data/</code> files.</p>
+  </footer>
+
+  <button id="to-top-button" class="to-top-button" type="button" aria-label="Back to top">&uarr;</button>
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
