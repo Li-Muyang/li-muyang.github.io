@@ -7,7 +7,7 @@ export const PUBLICATIONS = [
     venue: "ACL",
   },
   {
-    title: "Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance",
+    title: "Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance (Highlight)",
     category: "conference",
     authors: ["Muyang Li", "Yucheng Liu", "Jianbo Ma", "Elliot Osborne", "Bo Han", "Tongliang Liu"],
     year: 2026,
